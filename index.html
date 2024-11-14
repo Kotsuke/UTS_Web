@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  -->
+    
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>IlusShop</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="navbar-menu" class="hidden">
+          <a href="#IlusShop" onclick="scrollToSection('Home')">Home</a>
+          <a href="#OurProduct" onclick="scrollToSection('Product')">Product</a>
+          <a href="#OurServices" onclick="scrollToSection('services')">Services</a>
+          <a href="#ContactUs" onclick="scrollToSection('contact')">Contact</a>
+        </nav>
+      </div>
+  </header>
+
+    <main class="main-content">
+      <section id="IlusShop" class="hero">
+        <img src="Image/download.jpg" alt="contoh" />
+        <div class="description">
+          <p>
+            Selamat datang di IlusShop, platform kreatif yang menghadirkan dunia
+            visual menjadi nyata. Kami menawarkan layanan ilustrasi berkualitas
+            tinggi yang dirancang khusus untuk kebutuhan Anda, dari karya seni
+            digital hingga visual branding yang memukau. Jelajahi portofolio
+            kami dan wujudkan ide kreatif Anda bersama tim ilustrator
+            profesional kami.
+          </p>
+        </div>
+      </section>
+        <h1>Our Product</h1>
+      <section id="OurProduct" class="services">
+        
+        <div class="card">
+          <img
+            src="Image/₊̣̇ 🍥_ Alisa Mikhailovna.jpeg"
+            alt="Ilustrasi Digital"
+          />
+          <h3>Ilustrasi Karakter</h3>
+          <p>
+            Ciptakan karakter unik untuk berbagai keperluan, seperti maskot
+            brand, karakter game, avatar, atau ilustrasi untuk keperluan
+            pribadi.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="Image/One piece.jpeg" alt="Logo Branding" />
+          <h3>Ilustrasi Buku</h3>
+          <p>
+            Hidupkan cerita anak-anak, novel, atau buku edukasi dengan ilustrasi
+            yang menarik dan sesuai dengan tema
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="Image/Flat Web Design Vector Hd PNG Images, Modern Flat Design Concept Of Ui Ux Design With Characters And Text Place Can Use For Infographics Mobile App Landing Page Web Design Template Flat Vector Illustration, App, A.jpeg"
+            alt="Desain Poster"
+          />
+          <h3>Ilustrasi untuk Website dan Aplikasi</h3>
+          <p>
+            Desain ilustrasi yang user-friendly dan eye-catching untuk website,
+            landing page, aplikasi mobile, dan platform digital lainnya
+          </p>
+        </div>
+        <div class="card">
+          <img src="Image/Poster Stop Pencemaran Lingkungan Ilustratif _ Template Canva.jpeg" alt="Desain Poster" />
+          <h3>Ilustrasi Iklan dan Promosi</h3>
+          <p>
+            Buat materi promosi yang lebih menarik dan mudah diingat dengan
+            ilustrasi custom, seperti banner, poster, flyer, dan konten media
+            sosial
+          </p>
+        </div>
+        <div class="card">
+          <img src="Image/download (2).jpeg" alt="Desain Poster" />
+          <h3>Ilustrasi Potret</h3>
+          <p>
+            Tawarkan jasa ilustrasi potret diri atau keluarga dengan berbagai
+            gaya, mulai dari realistis hingga kartun
+          </p>
+        </div>
+        <div class="card">
+          <img src="Image/Ultraman and Motorcycles by lthings.jpeg" alt="Desain Poster" />
+          <h3>Ilustrasi Merchandise</h3>
+          <p>
+            Desain ilustrasi untuk diaplikasikan pada berbagai merchandise,
+            seperti kaos, tote bag, mug, stiker, dan casing handphone
+          </p>
+        </div>
+        <div class="card">
+          <img src="Image/Wallpaper gelombang indah.jpeg" alt="Desain Poster" />
+          <h3>Ilustrasi Pola</h3>
+          <p>
+            Ciptakan pola unik dan menarik untuk berbagai keperluan, seperti
+            wallpaper, tekstil, kemasan produk, dan desain interior
+          </p>
+        </div>
+      </section>
+    </main>
+    <section id="OurServices" class="table">
+      <h2>Our Services</h2>
+      <table border="1" cellpadding="10" cellspacing="0" align="center">
+        <thead>
+          <tr>
+            <th>Nama Layanan/Menu</th>
+            <th>Deskripsi Layanan/Menu</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ilustrasi Digital</td>
+            <td>Layanan pembuatan ilustrasi digital sesuai kebutuhan Anda.</td>
+            <td>Rp 500.000</td>
+          </tr>
+          <tr>
+            <td>Logo Branding</td>
+            <td>Pembuatan logo profesional untuk usaha atau bisnis Anda.</td>
+            <td>Rp 1.000.000</td>
+          </tr>
+          <tr>
+            <td>Desain Poster</td>
+            <td>Desain poster unik dan menarik untuk berbagai keperluan.</td>
+            <td>Rp 300.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br />
+
+    <section id="ContactUs" class="contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="#" method="POST">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Pesan:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+    <br />
+
+    <footer>
+      <p>Follow us on:</p>
+      <a href="https://www.instagram.com/SSRL_OS"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <p>Website ini dibuat dan Didesain Oleh Subandrio</p>
+    </footer>
+
+    <!--  -->
+  </body>
+</html>
